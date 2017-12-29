@@ -1,0 +1,203 @@
+body{
+  font: 15px/1.5 Arial, Helvetica, sans-serif;
+  padding:0;
+  margin:0;
+  background-color:#6DBDD6;
+}
+
+
+/*global **/
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+.button_1{
+  height:40px;
+  background:#6DBDD6;
+  border:0;
+  padding-left: 20px;
+  padding-right:20px;
+  color:#ffffff;
+}
+
+.dark{
+  padding:15px;
+  background:#404041;
+  color:#FFFFFF;
+  margin-top:10px;
+  margin-bottom:10px;
+}
+
+/* Header **/
+header{
+  background:#404040;
+  color:#ffffff;
+  padding-top:30px;
+  min-height:70px;
+  border-bottom:#B71427 4px solid;
+}
+
+header a{
+  color:#ffffff;
+  text-decoration:none;
+  text-transform:uppercase;
+  font-size:18px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .highlight, header .current a{
+  color:#FFE658;
+  font-weight:bold;
+  font:50px Arial;
+}
+
+header a:hover{
+  color:#CCCCCC;
+  font-weight:bold;
+}
+
+/* Showcase*/
+#showcase{
+  min-height:640px;
+
+  background:url('../image/showcase2.jpg') no-repeat -260px;
+  background-size: 130% 130%;
+  text-align: center;
+
+}
+
+#showcase h1{
+  margin-top:60px;
+  font-size:60px;
+  margin-bottom: 220px;
+  color:#404040;
+}
+
+#showcase h2{
+  font-sze:40px;
+  color:#FFFFFF;
+}
+
+#showcase p{
+  font-sze:20px;
+  color:#FFFFFF;
+}
+
+/* newsletter */
+
+#newsletter{
+  padding:15px;
+  color:#ffffff;
+  background:#414141;
+}
+
+#newsletter h1{
+  float:left;
+}
+
+#newsletter form {
+  float:right;
+  margin-top:16px;
+}
+
+#newsletter input[type="email"]{
+  padding:4px;
+  height:25px;
+  width:250px;
+}
+
+/* Boxes */
+#boxes{
+  margin-top:20px;
+}
+
+#boxes .box{
+  float:left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+}
+
+#boxes .box img{
+  height:180px;
+}
+
+/* Sidebar */
+aside#sidebar{
+  float:right;
+  width: 30%;
+}
+
+/* main in About Me */
+article#main-col{
+  float:left;
+  width: 65%;
+}
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#414141;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align: :center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+  #showcase h1{
+    margin-top:40px;
+  }
+
+  #newsletter button{
+    display:block;
+    width:100%;
+  }
+
+  #newsletter form input[type="email"]{
+    width:100%;
+    margin-bottom:5px;
+  }
+}

@@ -85,8 +85,8 @@ header a:hover{
 #showcase{
   min-height:640px;
 
-  background:url('../image/showcase2.jpg') no-repeat -260px;
-  background-size: 130% 130%;
+  background:url('../image/showcase2.jpg') no-repeat -400px;
+  background-size: 160% 150%;
   text-align: center;
 
 }
@@ -145,6 +145,28 @@ header a:hover{
 
 #boxes .box img{
   height:180px;
+}
+
+/* School Boxes */
+#schoolboxes{
+  margin-top:80px;
+  margin-bottom:100px;
+}
+
+#schoolboxes .schoolbox{
+  float:center;
+  text-align: center;
+  width:100%;
+  padding:10px;
+}
+
+#schoolboxes .schoolbox img{
+  width:500px;
+  height:400px;
+}
+
+#schoolbox p{
+  font-sze:40px;
 }
 
 /* Sidebar */
